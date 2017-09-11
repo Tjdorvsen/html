@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS HAMBURGER EFFECT</title>
+	<style type="text/css">
+			
+			body {
+				font-family: "ubuntu", "Palatino Linotype";
+				color: white;
+				text-align: center;
+				overflow: visible;
+				background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+				background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+				background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+				background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+				background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+					}
+
+				h1{
+					padding: 0;
+					margin: 0 auto 1%;
+				}
+
+			.container {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				-webkit-transform: translate(-50%,-50%);
+				-moz-transform: translate(-50%,-50%);
+				-ms-transform: translate(-50%,-50%);
+				-o-transform: translate(-50%,-50%);
+				background-color: #235789;
+				width: 650px;
+				overflow: hidden;
+				border: 10px solid white;
+				padding: 1%;
+						}		
+
+			[class^=hamburger] {
+				width: 50px;
+				background: #eaf6ff;
+				float: left;
+				padding: 25px;
+				margin: 20px 30px;
+				cursor: pointer;
+
+			}
+
+			[class^=hamburger] div {
+				height: 7px;
+				background: #39a0ed;
+				width: 50px;
+				margin: 5px 0;
+				transition: all 0.5s;
+			}
+
+
+/* 	1st HAMBURGER EFFECT	*/
+				.hamburger1:hover div:nth-child(1) {
+					width: 40px;
+					transform: translate(-6px, 9px) rotate(-45deg);
+					-webkit-transform: translate(-6px, 9px) rotate(-45deg);
+					-moz-transform: translate(-6px, 9px) rotate(-45deg);
+					-ms-transform: translate(-6px, 9px) rotate(-45deg);
+					-o-transform: translate(-6px, 9px) rotate(-45deg);
+					transition: all 0.5s;
+				}
+
+				.hamburger1:hover div:nth-child(2) {
+					opacity: 0;
+					transition: all 0.5s;
+				}
+
+				.hamburger1:hover div:nth-child(3) {
+					width: 40px;
+					transform: translate(18px, -15px) rotate(45deg);
+					-webkit-transform: translate(18px, -15px) rotate(45deg);
+					-moz-transform: translate(18px, -15px) rotate(45deg);
+					-ms-transform: translate(18px, -15px) rotate(45deg);
+					-o-transform: translate(18px, -15px) rotate(45deg);
+					transition: all 0.5s;
+				}
+
+
+/* 	2nd HAMBURGER EFFECT	*/
+
+				.hamburger2:hover div:nth-child(1) {
+					width: 40px;
+					transform: translate(2px, 0px) rotate(-45deg);
+					-webkit-transform: translate(2px, 0px) rotate(-45deg);
+					-moz-transform: translate(2px, 0px) rotate(-45deg);
+					-ms-transform: translate(2px, 0px) rotate(-45deg);
+					-o-transform: translate(2px, 0px) rotate(-45deg);
+					transition: all 0.5s;
+				}
+
+				.hamburger2:hover div:nth-child(2) {
+					opacity: 0;
+					transition: all 0.5s;
+				}
+
+				.hamburger2:hover div:nth-child(3) {
+					width: 40px;
+					transform: translate(2px, 0px) rotate(45deg);
+					-webkit-transform: translate(2px, 0px) rotate(45deg);
+					-moz-transform: translate(2px, 0px) rotate(45deg);
+					-ms-transform: translate(2px, 0px) rotate(45deg);
+					-o-transform: translate(2px, 0px) rotate(45deg);
+					transition: all 0.5s;
+				}
+
+
+/* 	3rd HAMBURGER EFFECT	*/
+
+				.hamburger3:hover div:nth-child(1) {
+					width: 40px;
+					transform: translate(8px, 0px) rotate(45deg);
+					-webkit-transform: translate(8px, 0px) rotate(45deg);
+					-moz-transform: translate(8px, 0px) rotate(45deg);
+					-ms-transform: translate(8px, 0px) rotate(45deg);
+					-o-transform: translate(8px, 0px) rotate(45deg);
+					transition: all 0.5s;
+
+				}
+
+				.hamburger3:hover div:nth-child(2) {
+					opacity:0;
+					transition: all 0.5s;
+				}
+
+				.hamburger3:hover div:nth-child(3) {
+					width: 40px;
+					transform: translate(8px, 0px) rotate(-45deg);
+					-webkit-transform: translate(8px, 0px) rotate(-45deg);
+					-moz-transform: translate(8px, 0px) rotate(-45deg);
+					-ms-transform: translate(8px, 0px) rotate(-45deg);
+					-o-transform: translate(8px, 0px) rotate(-45deg);
+					transition: all 0.5s;
+				}
+
+/* 4th Hamburger EFFECT */
+
+				.hamburger4:hover div:nth-child(1) {
+					width: 40px;
+					transform: translate(-5px, 17px) rotate(45deg);
+					-webkit-transform: translate(-5px, 17px) rotate(45deg);
+					-moz-transform: translate(-5px, 17px) rotate(45deg);
+					-ms-transform: translate(-5px, 17px) rotate(45deg);
+					-o-transform: translate(-5px, 17px) rotate(45deg);
+					transition: all 0.5s;
+				}
+
+				.hamburger4:hover div:nth-child(2) {
+					opacity: 0;
+					transition: all 0.5s;
+				}
+
+				.hamburger4:hover div:nth-child(3) {
+					width: 40px;
+					transform: translate(19px, -7px) rotate(-45deg);
+					-webkit-transform: translate(19px, -7px) rotate(-45deg);
+					-moz-transform: translate(19px, -7px) rotate(-45deg);
+					-ms-transform: translate(19px, -7px) rotate(-45deg);
+					-o-transform: translate(19px, -7px) rotate(-45deg);
+					transition: all 0.5s;
+				}
+
+/* 5th Hamburger EFFECT */
+
+				.hamburger5:hover div:nth-child(1) {
+					width: 20px;
+					transition: all 0.5s;
+				}
+
+				.hamburger5:hover div:nth-child(2) {
+					width: 30px;
+					transition: all 0.5s;
+				}
+
+				.hamburger5:hover div:nth-child(3) {
+					width: 40px;
+					transition: all 0.5s;
+				}
+
+/* 6th Hamburger EFFECT */
+
+				.hamburger6:hover div:nth-child(1) {
+					transform: translate(0px,12px);
+					-webkit-transform: translate(0px,12px);
+					-moz-transform: translate(0px,12px);
+					-ms-transform: translate(0px,12px);
+					-o-transform: translate(0px,12px);
+					transition: all 0.4s;
+				}
+
+				.hamburger6:hover div:nth-child(3) {
+					transform: translate(0px,-12px);
+					-webkit-transform: translate(0px,-12px);
+					-moz-transform: translate(0px,-12px);
+					-ms-transform: translate(0px,-12px);
+					-o-transform: translate(0px,-12px);
+					transition: all 0.4
+					s;
+				}
+
+			
+
+/* 7th Hamburger EFFECT */
+
+				.hamburger7:hover div:nth-child(1) {
+					transform: translate(0px,12px);
+					-webkit-transform: translate(0px,12px);
+					-moz-transform: translate(0px,12px);
+					-ms-transform: translate(0px,12px);
+					-o-transform: translate(0px,12px);
+					transition: all 0.4s;
+				}
+
+				.hamburger7:hover div:nth-child(2) {
+					transform: translate(0px,0px) rotate(90deg);
+					-webkit-transform: translate(0px,0px) rotate(90deg);
+					-moz-transform: translate(0px,0px) rotate(90deg);
+					-ms-transform: translate(0px,0px) rotate(90deg);
+					-o-transform: translate(0px,0px) rotate(90deg);
+					transition: all 0.5s;
+				}
+
+				.hamburger7:hover div:nth-child(3) {
+					transform: translate(0px,-12px);
+					-webkit-transform: translate(0px,-12px);
+					-moz-transform: translate(0px,-12px);
+					-ms-transform: translate(0px,-12px);
+					-o-transform: translate(0px,-12px);
+					transition: all 0.4s;
+				}
+
+ /* 8th Hamburger EFFECT */
+ 				.hamburger8 div{
+ 					margin: 5px auto;
+ 				}
+
+				.hamburger8:hover div:nth-child(1) {
+					width: 20px;
+					transition: all 0.5s;
+
+				}
+
+				.hamburger8:hover div:nth-child(2) {
+					width: 40px;
+					transition: all 0.5s;
+				}
+
+				.hamburger8:hover div:nth-child(3) {
+					width: 20px;
+					transition: all 0.5s;
+				}
+
+
+
+
+	</style>
+</head>
+
+<body>
+
+		 <div class="container">
+		 			<h1> 'Hamburger' CSS3 Effects </h1>
+				   <div class="hamburger1">
+				   		<div></div>
+				   		<div></div>
+				   		<div></div>
+				    </div>
+
+				    <div class="hamburger2">
+				   		<div></div>
+				   		<div></div>
+				   		<div></div>
+				    </div>
+
+				    <div class="hamburger3">
+				   		<div></div>
+				   		<div></div>
+				   		<div></div>
+				    </div>
+
+				     <div class="hamburger4">
+				   		<div></div>
+				   		<div></div>
+				   		<div></div>
+				    </div>
+
+				    <div class="hamburger5">
+				   		<div></div>
+				   		<div></div>
+				   		<div></div>
+				    </div>
+
+				    <div class="hamburger6">
+				   		<div></div>
+				   		<div></div>
+				   		<div></div>
+				    </div>
+
+				    <div class="hamburger7">
+				   		<div></div>
+				   		<div></div>
+				   		<div></div>
+				    </div>
+
+				     <div class="hamburger8">
+				   		<div></div>
+				   		<div></div>
+				   		<div></div>
+				    </div>
+
+
+
+
+		 </div>
+
+</body>
+</html>
